@@ -1,0 +1,27 @@
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 320px;
+}
+
+li {
+	float:left;
+	clear:left;
+	
+}
+li li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:black;
+	clear:none;
+}
+	
+li ol li {
+  font-size: 24px;
+
+}
+
